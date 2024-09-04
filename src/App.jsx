@@ -1,12 +1,13 @@
 
 import './App.css'
+// import Callback from './components/Callback'
+import MemoHook from './components/MemoHook'
 
 function App() {
-
-
   return (
     <>
-     <h1>hello</h1>
+     {/* <Callback/> */}
+     <MemoHook/>
     </>
   )
 }
